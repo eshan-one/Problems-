@@ -1,0 +1,7 @@
+string1 = "aabbcsdw"
+string2 = "abbbcsdd"
+
+# Write your code here.
+for idx , char in enumerate(string1):
+    if char == string2[idx]:
+        print(char)
